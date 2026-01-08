@@ -10,7 +10,8 @@ A comprehensive web-based application for managing student records, course offer
 - [Usage](#usage)
 - [Project Structure](#project-structure)
 - [Screenshots](#screenshots)
-- [Documentation](#documentation)
+- [Challenges and Learnings](#challengesandlearnings)
+
 
 ## Features
 
@@ -134,24 +135,31 @@ student-management-system/
 ├── delete.php             
 ├── style.css              
 ├── database_schema.sql    
-├── README.md             
+├── README.md              
 
-    
 ```
 
 ## Screenshots
 
 ### Main Dashboard
 Shows the main page with student list and add form
+<img width="1710" height="1112" alt="input" src="https://github.com/user-attachments/assets/06cf4a01-d6e4-460b-af18-2bd854fe25d7" />
+
 
 ### Add Student Form
 Demonstrates the form for adding new students
+<img width="1710" height="1112" alt="add" src="https://github.com/user-attachments/assets/97b6253e-e65c-43ba-aed4-f716ff1ac84a" />
 
 ### Edit Student
 Shows the edit interface with pre-filled data
+<img width="1710" height="1112" alt="edit" src="https://github.com/user-attachments/assets/15ce1582-80a8-4d9f-b9cd-bdf5d3aeb7ef" />
 
 ### Delete Student
 Shows the confirmation dialog before removing a student record
+<img width="1710" height="1112" alt="delete" src="https://github.com/user-attachments/assets/04230dac-fb3f-4766-a317-cbea518a00f6" />
+
+## ER Diagram
+<img width="641" height="663" alt="ERDiagram" src="https://github.com/user-attachments/assets/00432ec7-b32f-47ea-aa57-07c44c02eee6" />
 
 ## Challenges and Learning
 What I Found Challenging
@@ -175,4 +183,5 @@ Security practices like input sanitization and SQL injection prevention
 **Comiso, Piolo R.**
 - GitHub: [@Xiaoln77](https://github.com/Xiaoln77)
 - Project Link: [https://github.com/Xiaoln77/student-management-system](https://github.com/Xiaoln77/student-management-system)
+
 
