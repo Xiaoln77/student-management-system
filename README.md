@@ -10,6 +10,7 @@ A comprehensive web-based application for managing student records, course offer
 - [Usage](#usage)
 - [Project Structure](#project-structure)
 - [Screenshots](#screenshots)
+- [Challenges and Learnings](#challengesandlearnings)
 
 
 ## Features
