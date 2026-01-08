@@ -5,7 +5,7 @@
 -- Date: January 2026
 -- ==========================================
 
--- Drop tables if they exist
+-- Drop tables if they exist 
 DROP TABLE IF EXISTS enrollments;
 DROP TABLE IF EXISTS courses;
 DROP TABLE IF EXISTS students;
@@ -74,11 +74,11 @@ CREATE TABLE enrollments (
 
 -- Insert Students
 INSERT INTO students (name, email, course, year_level) VALUES
-('John Doe', 'john.doe@university.edu', 'Computer Science', 3),
-('Jane Smith', 'jane.smith@university.edu', 'Information Technology', 2),
-('Michael Brown', 'michael.brown@university.edu', 'Computer Engineering', 4),
-('Emily Davis', 'emily.davis@university.edu', 'Computer Science', 1),
-('Robert Wilson', 'robert.wilson@university.edu', 'Information Systems', 3);
+('Kent Agno', 'kent.agno@gmail.com', 'Computer Science', 3),
+('Jaymarck Maniegos', 'jaymarck.maniegos@gmail.com', 'Information Technology', 2),
+('Jaybee Jamolin', 'jaybee.jamolin@gmail.com', 'Computer Engineering', 4),
+('Joshua Calalo', 'joshua.calalo@gmail.com', 'Computer Science', 1),
+('Rowell Tan', 'rowell.tan@gmail.com', 'Information Systems', 3);
 
 -- Insert Courses
 INSERT INTO courses (course_code, course_name, department, credits, description) VALUES
