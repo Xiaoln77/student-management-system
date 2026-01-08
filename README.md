@@ -72,7 +72,7 @@ The system uses three interconnected tables:
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/ArlynDV/student-management-system.git
+git clone https://github.com/Xiaoln77/student-management-system.git
 cd student-management-system
 ```
 
@@ -127,14 +127,14 @@ $database = "student_db";
 ```
 student-management-system/
 │
-├── db.php                 # Database connection
-├── index.php              # Main dashboard
-├── add.php                # Add student logic
-├── edit.php               # Edit student page
-├── delete.php             # Delete student logic
-├── style.css              # Styles and design
-├── database_schema.sql    # Complete DB schema
-├── README.md              # This file
+├── db.php                 
+├── index.php              
+├── add.php                
+├── edit.php               
+├── delete.php             
+├── style.css              
+├── database_schema.sql    
+├── README.md              
 
 ```
 
@@ -163,7 +163,7 @@ Shows the confirmation dialog before removing a student record
 ## Author
 
 **Comiso, Piolo R.**
-- GitHub: [@ArlynDV](https://github.com/ArlynDV)
-- Project Link: [https://github.com/ArlynDV/student-management-system](https://github.com/ArlynDV/student-management-system)
+- GitHub: [@Xiaoln77](https://github.com/Xiaoln77)
+- Project Link: [https://github.com/Xiaoln77/student-management-system](https://github.com/Xiaoln77/student-management-system)
 
 
