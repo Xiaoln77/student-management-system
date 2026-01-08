@@ -135,8 +135,7 @@ student-management-system/
 ├── style.css              # Styles and design
 ├── database_schema.sql    # Complete DB schema
 ├── README.md              # This file
-└── docs/
-    └── PROJECT_DOCUMENTATION.md  # Full documentation
+
 ```
 
 ## Screenshots
