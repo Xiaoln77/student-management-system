@@ -154,7 +154,8 @@ Shows the confirmation dialog before removing a student record
 <img width="1710" height="1112" alt="delete" src="https://github.com/user-attachments/assets/04230dac-fb3f-4766-a317-cbea518a00f6" />
 
 ## ER Diagram
-<img width="641" height="663" alt="ERDiagram" src="https://github.com/user-attachments/assets/00432ec7-b32f-47ea-aa57-07c44c02eee6" />
+<img width="333" height="340" alt="Screenshot 2026-01-08 at 5 53 45 PM" src="https://github.com/user-attachments/assets/746f890a-ea00-4e9a-a281-6e1529a25640" />
+
 
 ## Challenges and Learning
 What I Found Challenging
