@@ -1,6 +1,6 @@
 # Student Management System
 
-A comprehensive web-based application for managing student records, course offerings, and enrollment tracking. Built with PHP, MySQL, HTML, CSS, and JavaScript.
+A comprehensive web-based application for managing student records. Built with PHP, MySQL, HTML, CSS, and JavaScript.
 
 ## Table of Contents
 - [Features](#features)
@@ -16,13 +16,13 @@ A comprehensive web-based application for managing student records, course offer
 ## Features
 
 - Complete CRUD Operations - Create, Read, Update, Delete student records
-- 3-Table Relational Database - Normalized schema with Students, Courses, and Enrollments
+- Database-Driven System - MySQL database with proper constraints and validation
 - Modern UI Design - Beautiful gradient interface with responsive layout
 - Mobile Responsive - Works seamlessly on all devices
 - Interactive JavaScript - Form validation and dynamic content updates
-- Data Integrity - Foreign keys, constraints, and validation
-- Search and Filter - Easy data retrieval and management
-- Enrollment Tracking - Monitor student course registrations and grades
+- Data Integrity - Primary keys, unique constraints, and CHECK constraints
+- Real-time Updates - Changes reflect immediately in the interface
+- User-Friendly Interface - Clean and intuitive design for easy management
 
 ## Technologies
 
@@ -40,26 +40,21 @@ A comprehensive web-based application for managing student records, course offer
 
 ## Database Design
 
-### Entity-Relationship Model
+### Database Structure
 
-The system uses three interconnected tables:
-
-1. **Students** - Stores student information
-2. **Courses** - Contains available courses
-3. **Enrollments** - Junction table for student-course relationships
-
-### Key Relationships
-- One student can enroll in many courses (1:N)
-- One course can have many students (1:N)
-- Many-to-many relationship through enrollments table
+The system uses a MySQL database with a **Students** table that stores:
+- Student Name
+- Email Address
+- Course/Program
+- Year Level (1-5)
 
 ### Database Features
-- Primary and Foreign Keys
-- Cascade operations (ON DELETE/UPDATE CASCADE)
-- CHECK constraints for data validation
-- UNIQUE constraints to prevent duplicates
-- Indexed columns for performance
-- Third Normal Form (3NF) compliance
+- Primary Key for unique identification
+- Unique constraint on email to prevent duplicates
+- CHECK constraint to ensure year level is between 1-5
+- NOT NULL constraints on required fields
+- Proper data types for each column
+- Indexed columns for better performance
 
 ## Installation
 
@@ -121,7 +116,7 @@ $database = "student_db";
 ### Deleting a Student
 1. Click "Delete" button next to student record
 2. Confirm deletion in the popup dialog
-3. Student and related enrollments are removed
+3. Student record is removed from the database
 
 ## Project Structure
 
@@ -165,15 +160,15 @@ Shows the confirmation dialog before removing a student record
 What I Found Challenging
 Connecting MySQL and PHP
 This was my first time linking MySQL with PHP, and it was quite challenging at the start. Understanding how to establish a database connection, execute queries, and handle errors took time and practice. I had to learn about the MySQLi extension and how to properly sanitize user inputs to prevent SQL injection.
-Managing Foreign Keys
-Understanding how foreign keys work and implementing CASCADE operations was difficult initially. It took practice to see how relationships between tables maintain data integrity automatically.
+Managing Database Constraints
+Understanding how to properly implement primary keys, unique constraints, and CHECK constraints was initially difficult. Learning how these constraints maintain data integrity automatically took practice and experimentation.
 Form Validation
 Implementing both client-side and server-side validation was challenging. I learned that JavaScript validation improves user experience, but PHP validation is essential for security since users can bypass client-side checks.
 What I Learned
 
 How to properly connect PHP to MySQL databases
 The importance of both client-side and server-side validation
-How foreign keys and CASCADE operations maintain data integrity
+How database constraints maintain data integrity
 Responsive design principles using CSS Grid and Flexbox
 The complete CRUD operation workflow
 Security practices like input sanitization and SQL injection prevention
@@ -183,5 +178,3 @@ Security practices like input sanitization and SQL injection prevention
 **Comiso, Piolo R.**
 - GitHub: [@Xiaoln77](https://github.com/Xiaoln77)
 - Project Link: [https://github.com/Xiaoln77/student-management-system](https://github.com/Xiaoln77/student-management-system)
-
-
