@@ -72,7 +72,7 @@ The system uses three interconnected tables:
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/ArlynDV/student-management-system.git
+git clone https://github.com/Xiaoln77/student-management-system.git
 cd student-management-system
 ```
 
@@ -150,62 +150,12 @@ Demonstrates the form for adding new students
 ### Edit Student
 Shows the edit interface with pre-filled data
 
-### Database Structure
+### Delete Student
 Displays the database schema in phpMyAdmin
-
-## Documentation
-
-For complete project documentation including:
-- Detailed database design with ER diagram
-- Complete API reference
-- Development challenges and solutions
-- Future enhancement plans
-
-See: [PROJECT_DOCUMENTATION.md](docs/PROJECT_DOCUMENTATION.md)
-
-## Project Requirements Met
-
-- 3 related tables with meaningful relationships  
-- Primary and foreign keys with constraints  
-- Normalized database design  
-- Complete CRUD operations  
-- User-friendly web interface  
-- CSS styling with modern design  
-- JavaScript interactivity and validation  
-- Responsive and usable interface  
-- Complete documentation  
-
-## Future Enhancements
-
-- User authentication system
-- Advanced search and filtering
-- PDF/Excel report generation
-- Dashboard with analytics charts
-- Email notifications
-- Grade management for faculty
-- RESTful API development
-- Mobile application
-
-## Contributing
-
-This is a student project for educational purposes. Feedback and suggestions are welcome!
-
-## License
-
-This project is open source and available under the MIT License.
 
 ## Author
 
-**[Your Name]**
-- GitHub: [@ArlynDV](https://github.com/ArlynDV)
-- Project Link: [https://github.com/ArlynDV/student-management-system](https://github.com/ArlynDV/student-management-system)
+**Comiso, Piolo R.**
+- GitHub: [@Xiaoln77](https://github.com/Xiaoln77)
+- Project Link: [https://github.com/Xiaoln77/student-management-system](https://github.com/Xiaoln77/student-management-system)
 
-## Acknowledgments
-
-- Course instructor and teaching assistants
-- Classmates for feedback and testing
-- Online resources and documentation
-
----
-
-**Note:** This is a final project for Database Management and Web Development course.
