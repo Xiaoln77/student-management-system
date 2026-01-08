@@ -160,6 +160,23 @@ Shows the confirmation dialog before removing a student record
 ## ER Diagram
 <img width="641" height="663" alt="ERDiagram" src="https://github.com/user-attachments/assets/00432ec7-b32f-47ea-aa57-07c44c02eee6" />
 
+## Challenges and Learning
+What I Found Challenging
+Connecting MySQL and PHP
+This was my first time linking MySQL with PHP, and it was quite challenging at the start. Understanding how to establish a database connection, execute queries, and handle errors took time and practice. I had to learn about the MySQLi extension and how to properly sanitize user inputs to prevent SQL injection.
+Managing Foreign Keys
+Understanding how foreign keys work and implementing CASCADE operations was difficult initially. It took practice to see how relationships between tables maintain data integrity automatically.
+Form Validation
+Implementing both client-side and server-side validation was challenging. I learned that JavaScript validation improves user experience, but PHP validation is essential for security since users can bypass client-side checks.
+What I Learned
+
+How to properly connect PHP to MySQL databases
+The importance of both client-side and server-side validation
+How foreign keys and CASCADE operations maintain data integrity
+Responsive design principles using CSS Grid and Flexbox
+The complete CRUD operation workflow
+Security practices like input sanitization and SQL injection prevention
+
 ## Author
 
 **Comiso, Piolo R.**
